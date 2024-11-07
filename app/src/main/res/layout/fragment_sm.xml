@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".sm">
+
+    <ScrollView
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/SM_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adlam_display"
+            android:text="Sm Baguio"
+            android:textAlignment="center"
+            android:textSize="35sp" />
+
+        <TextView
+        android:id="@+id/sm_loc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:fontFamily="sans-serif"
+        android:text="Luneta Hill, Upper Session Road, Baguio City, Benguet, 2600, Philippines"
+        android:textAlignment="center"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/SM_img"
+        android:layout_width="match_parent"
+        android:layout_height="249dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/sm" />
+
+    <TextView
+        android:id="@+id/SM_hour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/afacad"
+        android:text="Operating Hours: 10 AM - 10 PM Daily"
+        android:textSize="18sp"
+    android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sm_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/afacad"
+            android:text="SM City Baguio is a large shopping mall located in Baguio City, Philippines. Opened in November 2003, it's one of the most visited destinations in the city due to its strategic location, cool mountain climate, and extensive selection of shopping, dining, and entertainment options. The mall is built atop Luneta Hill, offering scenic views of Baguio’s lush pine forests and hilly terrain."
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+    </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    tools:context=".Botanical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/botanical_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/adlam_display"
+                android:text="Botanical Garden"
+                android:textAlignment="center"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/botanical_loc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="sans-serif"
+                android:text="37 Leonard Wood Rd, Baguio, 2600 Benguet"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/botanical_img"
+                android:layout_width="match_parent"
+                android:layout_height="249dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/botanical" />
+
+            <TextView
+                android:id="@+id/botanical_hour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Operating Hours: 6AM - 6PM Daily"
+                android:textStyle="bold"
+                android:fontFamily="@font/afacad"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/botanical_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/afacad"
+                android:text="Nestled in the heart of Baguio City, the Baguio Botanical Garden is a serene haven for nature lovers. This stunning garden showcases the diverse flora of the Philippines and offers visitors a peaceful escape from the hustle and bustle of city life. With its lush greenery, well-manicured gardens, and tranquil atmosphere, the Baguio Botanical Garden is the perfect destination for those seeking to reconnect with nature."
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

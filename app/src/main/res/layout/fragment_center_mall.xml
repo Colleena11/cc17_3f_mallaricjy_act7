@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    tools:context=".CenterMall">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/centermall_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/adlam_display"
+                android:text="Center Mall"
+                android:textAlignment="center"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/centermall_loc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="sans-serif"
+                android:text="421 Magsaysay Ave, Baguio, 2600 Benguet"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/centermall_img"
+                android:layout_width="match_parent"
+                android:layout_height="249dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/centermall" />
+
+            <TextView
+                android:id="@+id/centermall_hour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Operating Hours: 9AM - 7PM Daily"
+                android:textStyle="bold"
+                android:fontFamily="@font/afacad"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/centermall_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/afacad"
+                android:text="Center Mall , the subject of this study, is conceivably the first “mall” to arise in Baguio prior to the establishment of the more popular ShoeMart Baguio (SM). CM was erected on a parcel of land across the city market which was traditionally Baguio’s center of commerce, and adjacent to the Dangwa Tranco bus station"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

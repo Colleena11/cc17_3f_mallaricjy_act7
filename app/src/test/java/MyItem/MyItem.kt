@@ -1,0 +1,4 @@
+package MyItem
+
+class MyItem {
+}
