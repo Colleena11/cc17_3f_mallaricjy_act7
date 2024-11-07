@@ -93,7 +93,7 @@
     </fragment>
     <fragment
         android:id="@+id/marios"
-        android:name="com.example.cc17_3f_mallaricjy_act7.`Foam Coffee`"
+        android:name="com.example.cc17_3f_mallaricjy_act7.FoamCoffee"
         android:label="fragment_marios"
         tools:layout="@layout/fragment_foam_coffee" >
         <action
